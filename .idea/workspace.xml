@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1eb0200-b3e4-4cba-b608-8b3ad2f4abbe" name="Changes" comment="Ejercicios tema 12 programación">
+    <list default="true" id="c1eb0200-b3e4-4cba-b608-8b3ad2f4abbe" name="Changes" comment="Solucionado un pequeño error en la interfaz comparable de apodos.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/club.dat" beforeDir="false" afterPath="$PROJECT_DIR$/club.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparaApodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparaApodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GestionaSocios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionaSocios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main_12_25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main_12_25.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685321488329</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Solucionado un pequeño error en la interfaz comparable de apodos.">
+      <created>1685356024746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685356024746</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ejercicios tema 12 programación" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios tema 12 programación" />
+    <MESSAGE value="Solucionado un pequeño error en la interfaz comparable de apodos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solucionado un pequeño error en la interfaz comparable de apodos." />
   </component>
 </project>

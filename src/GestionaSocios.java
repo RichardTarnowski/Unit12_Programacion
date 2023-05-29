@@ -24,11 +24,15 @@ public class GestionaSocios {
         nombre = scanner.next();
         System.out.println("Introduce el apodo del nuevo socio:");
         apodo = scanner.next();
+        if(!gestionSocios.containsKey(apodo)){
+            socio = new Socio(apodo, nombre, fecha);
+            gestionSocios.put(socio.getApodo(), socio);
+            mensajeVueltaAMenu();
+        }else{
+            System.out.println("Operacion cancelada, ya existe un socio con el apodo introducido, volviendo al menú.");
+            menu();
+        }
 
-        socio = new Socio(apodo, nombre, fecha);
-        gestionSocios.put(socio.getApodo(), socio);
-
-        mensajeVueltaAMenu();
 
 
     }
@@ -172,7 +176,8 @@ public class GestionaSocios {
         }
 
         try {
-            System.out.println("\nIntroduce el Número de la opción que deseas seleccionar:\n");
+            System.out.println("****************************************************************************************************");
+            System.out.println("\nIntroduce el número de la opción que deseas seleccionar:\n");
             System.out.println("""
                     1. Alta socio
                     2. Baja socio
@@ -181,6 +186,7 @@ public class GestionaSocios {
                     5. Listar socios por antigüedad
                     6. Listar los socios con alta anterior a un año determinado
                     7. Salir""".indent(1));
+            System.out.println("****************************************************************************************************");
             opcionElegida = scanner.nextInt();
 
             switch (opcionElegida) {
